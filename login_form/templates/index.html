@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Yakoyo Food Canteen</h1>
+        <nav>
+            <a href="{% url 'logout' %}">Logout</a>
+        </nav>
+    </header> 
+
+    <!--<main>
+        <div class="container">
+            <img src="static/icons/party-icon.png" class="event-icon">
+            <h2>Let's get started</h2>
+            <p>Click on the "New Event" button below to create your first event</p>
+            <a href="{% url 'event-details' %}">
+                <button class="btn">New event +</button>
+            </a>
+        </div>
+    </main>-->
+    
+</body>
+</html>
